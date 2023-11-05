@@ -16,5 +16,22 @@ li:hover {
 .allProducts{
     margin-bottom: 10px;
     cursor: pointer;
+    margin-top: 20px;
 }
+
+.link > a{
+    color: #b6abab;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s;
+    
+}
+
+
+.link > a:hover{
+    
+    font-size: 24px; 
+}
+
 

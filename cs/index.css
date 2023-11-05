@@ -1,0 +1,15 @@
+.index {
+    background: crimson;
+    height: 100vh;
+}
+
+li{
+    color:floralwhite;
+    font-size: 17px;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+li:hover {
+  transform: scale(1.1); 
+}
+

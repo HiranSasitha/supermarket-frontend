@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>create product</title>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary mb-3"> <!--mb= margin botum 1-5-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Frontend App</a>
+        </div>
+      </nav>
+
+      <div class="alert alert-info" id = "error" role="alert">
+        
+      </div>
+      
+
+      <div class="container">
+        
+        <h1>Create Product</h1>
+
+        <form onsubmit="createProduct(event)">
+            <div>
+                <label class="form-label">Product Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Prodcut Name">
+            </div>
+
+            <div>
+                <label class="form-label">Price</label>
+                <input type="text" name="price" id="price" class="form-control" placeholder="price">
+            </div>
+
+            <div>
+                <label class="form-label">Qty</label>
+                <input type="text" name="qty" id="qty" class="form-control" placeholder="qty">
+                <br>
+            </div>
+
+            <div>
+                <label class="form-label">Category</label>
+               <select name="categoryId" id="categoryId" class="form-control">
+                     
+               </select>
+            </div>
+
+            <div>
+                <br>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+        
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/create-product.js"></script>
+</body>
+</html>
